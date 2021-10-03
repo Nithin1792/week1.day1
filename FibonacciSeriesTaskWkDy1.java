@@ -10,7 +10,7 @@ public class FibonacciSeriesTaskWkDy1 {
 		int secondNum = 1;
 		System.out.println(firstNum);
 		System.out.println(secondNum);
-		for (int i = 1; i <=8; i++) {
+		for (int i = 1; i <=range; i++) {
 			int sum= firstNum + secondNum;
 			System.out.println(sum);
 			firstNum=secondNum;
